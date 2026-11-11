@@ -1,4 +1,4 @@
-# input-ownership
+# mixer-wasabi-sum
 
 Dado um conjunto de transações Bitcoin (JSON no formato blockchain.com, **um arquivo por transação,
 sem extensão**, na pasta `transactions/`), infere quais **entradas pertencem ao mesmo dono**.
