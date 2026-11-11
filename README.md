@@ -6,8 +6,6 @@ sem extensão**, na pasta `transactions/`), infere quais **entradas pertencem ao
 ## Uso
 
 ```bash
-uv run mixer-wasabi-sum transactions/ -o output/
-# ou (se tiver o diretório transactions/ com as transações estiver definido e a saida padrão será em output/)
 uv run mixer-wasabi-sum
 ```
 
