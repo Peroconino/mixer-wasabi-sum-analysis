@@ -1,0 +1,19 @@
+[project]
+name = "mixer-wasabi-sum"
+version = "0.1.0"
+description = "Infere quais entradas de transações Bitcoin (CoinJoin) pertencem ao mesmo dono"
+readme = "README.md"
+authors = [
+    { name = "peroconino", email = "leandrofontellas@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+mixer-wasabi-sum = "mixer_wasabi_sum.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
