@@ -6,7 +6,9 @@ sem extensão**, na pasta `transactions/`), infere quais **entradas pertencem ao
 ## Uso
 
 ```bash
-uv run input-ownership transactions/ -o output/ -v
+uv run mixer-wasabi-sum transactions/ -o output/
+# ou (se tiver o diretório transactions/ com as transações estiver definido e a saida padrão será em output/)
+uv run mixer-wasabi-sum
 ```
 
 Opções: `-j/--jobs N` (processos em paralelo; default = nº de CPUs), `--max-group N` (máx. de "pedaços" por dono, default 4), `--fee-margin` (folga sobre a taxa média por
